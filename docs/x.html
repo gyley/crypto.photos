@@ -1,423 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 
-        <head>
-                
-                    <meta charset="utf-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <meta name="description" content="The most complete open source archive of cryptocurrency asset icons on the internet">
-                    <meta name="keywords" content="digital assets, cryptocurrency, bitcoin, altcoin logos, altcoins, cryptocurrency trading">
-                
-                    <title>Crypto.Photos</title>
-                
-                    <!-- Bootstrap Core CSS -->
-                    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-                
-                    <!-- MetisMenu CSS -->
-                    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
-                
-                    <!-- Custom CSS -->
-                    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-                
-                    <!-- Custom Fonts -->
-                    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-                
-                    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-                    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-                    <!--[if lt IE 9]>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The most complete open source archive of cryptocurrency asset icons on the internet">
+    <meta name="keywords" content="digital assets, cryptocurrency, bitcoin, altcoin logos, altcoins, cryptocurrency trading">
+
+    <title>Crypto.Photos</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .caption {
+            text-align: center;
+        }
+
+        figure {
+            display: table;
+            text-align: center;
+            float: left;
+            margin: 10px;
+            padding: 1px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            box-shadow: 2px 3px 4px #888888;
+            width: 15%;
+            min-width: 150px;
+            min-height: 150px;
+        }
+
+        figcaption {
+            display: table-caption;
+            caption-side: top;
+            text-align: center;
+            font-family: 'Didact Gothic', sans-serif;
+            font-size: 14px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 4px #888888;
+            height: 40px;
+            vertical-align: middle;
+            line-height: 95%;
+            padding-top: 5%;
+        }
+
+        figure:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            /* For IE8 and earlier */
+        }
+
+        img {
+            padding: 5px;
+        }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
                         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
                         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
                     <![endif]-->
-                
-                </head>
-                
-                <body>
-                
-                    <div id="wrapper">
-                
-                        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.html">Crypto Photos</a>
-                            </div>
-                
-                            <div class="navbar-default sidebar" role="navigation">
-                                <div class="sidebar-nav navbar-collapse">
-                                    <ul class="nav" id="side-menu">
-                                        <li class="sidebar-search">
-                                            <div class="input-group custom-search-form">
-                                                <input type="text" class="form-control" placeholder="Search...">
-                                                <span class="input-group-btn">
+                <a class="navbar-brand" href="http://crypto.photos">Crypto Photos</a>
+            </div>
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
                                                 <button class="btn btn-default" type="button">
                                                     <i class="fa fa-search"></i>
                                                 </button>
                                             </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a href="iconindex.html"><i class="fa fa-image fa-fw"></i> Icon Index</a>
-                
-                                            <li>
-                                                <a href="documentation.html"><i class="fa fa-file-text-o fa-fw"></i> Doucumentation</a>
-                                            </li>
-                                            <li>
-                                                <a href="interact.html"><i class="fa fa-envelope-o fa-fw"></i> Interact</a>
-                                            </li>
-                                            <li>
-                                                <a href="download.html"><i class="glyphicon glyphicon-download-alt"></i> Download</a>
-                                            </li>
-                                            <li>
-                                                <a href="github.html"><i class="fa fa-github fa-fw"></i> Github</a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html"><i class="fa fa-group fa-fw"></i> About Us</a>
-                                            </li>
-                                    </ul>
-                                    </li>
-                                </div>
                             </div>
-                        </nav>
+                        </li>
+                        <li>
+                            <a href="http://crypto.photos/iconindex"><i class="fa fa-image fa-fw"></i> Icon Index</a>
+
+                            <li>
+                                <a href="http://crypto.photos/documentation"><i class="fa fa-file-text-o fa-fw"></i> Doucumentation</a>
+                            </li>
+                            <li>
+                                <a href="http://crypto.photos/interact"><i class="fa fa-envelope-o fa-fw"></i> Interact</a>
+                            </li>
+                            <li>
+                                <a href="http://crypto.photos/download"><i class="glyphicon glyphicon-download-alt"></i> Download</a>
+                            </li>
+                            <li>
+                                <a href="http://crypto.photos/github"><i class="fa fa-github fa-fw"></i> Github</a>
+                            </li>
+                            <li>
+                                <a href="http://crypto.photos/about"><i class="fa fa-group fa-fw"></i> About Us</a>
+                            </li>
+                    </ul>
+                    </li>
+                </div>
+            </div>
+        </nav>
 
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Crypto Icons: 0-9</h1>
+                    <h1 class="page-header">Crypto Icons: X</h1>
                 </div>
-                <!-- /.col-lg-12 -->
             </div>
-            <div class="col-md-2">
-                    <a href="C:\CODE\TEST\CryptoPhotos\9\1cr.png">
-                        <img src="C:\CODE\TEST\CryptoPhotos\9\1cr.png" alt="1cr" style="width:100%">
-                        <div class="caption">
-                            <p>1Credit (1CR)</p>
-                        </div>
-                    </a>
-            </div>
-            <!-- /.row 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">-->
-                            <!--
-                            <h3>Grid options</h3>
-                            <p>See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                            <div class="table-responsive">
-                                <table class="table table-striped">-->
-                                    <!--
-                                    <thead>
-                                        <tr>
-                                            <th></th>
-                                            <th>
-                                                Extra small devices
-                                                <small>Phones (&lt;768px)</small>
-                                            </th>
-                                            <th>
-                                                Small devices
-                                                <small>Tablets (&ge;768px)</small>
-                                            </th>
-                                            <th>
-                                                Medium devices
-                                                <small>Desktops (&ge;992px)</small>
-                                            </th>
-                                            <th>
-                                                Large devices
-                                                <small>Desktops (&ge;1200px)</small>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>Grid behavior</th>
-                                            <td>Horizontal at all times</td>
-                                            <td colspan="3">Collapsed to start, horizontal above breakpoints</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Max container width</th>
-                                            <td>None (auto)</td>
-                                            <td>750px</td>
-                                            <td>970px</td>
-                                            <td>1170px</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Class prefix</th>
-                                            <td>
-                                                <code>.col-xs-</code>
-                                            </td>
-                                            <td>
-                                                <code>.col-sm-</code>
-                                            </td>
-                                            <td>
-                                                <code>.col-md-</code>
-                                            </td>
-                                            <td>
-                                                <code>.col-lg-</code>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th># of columns</th>
-                                            <td colspan="4">12</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Max column width</th>
-                                            <td class="text-muted">Auto</td>
-                                            <td>60px</td>
-                                            <td>78px</td>
-                                            <td>95px</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Gutter width</th>
-                                            <td colspan="4">30px (15px on each side of a column)</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Nestable</th>
-                                            <td colspan="4">Yes</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Offsets</th>
-                                            <td colspan="4">Yes</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Column ordering</th>
-                                            <td colspan="4">Yes</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p>Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Therefore, applying any
-                                <code>.col-md-</code> class to an element will not only affect its styling on medium devices but also on large devices if a
-                                <code>.col-lg-</code> class is not present.</p>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">-->
-                            <!--
-                            <h3>Example: Stacked-to-horizontal</h3>
-                            <p>Using a single set of
-                                <code>.col-md-*</code> grid classes, you can create a default grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any
-                                <code>.row</code>.</p>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                                <div class="col-md-2">.col-md-2</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3>Example: Mobile and desktop</h3>
-                            <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding
-                                <code>.col-xs-*</code>
-                                <code>.col-md-*</code> to your columns. See the example below for a better idea of how it all works.</p>
-                            <div class="row show-grid">
-                                <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-                                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-6">.col-xs-6</div>
-                                <div class="col-xs-6">.col-xs-6</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
+            <figure><img class="cryptoicon" id="xai" title="SapienceCoin (XAI)" height="150px" width="150" src="http://crypto.photos/icons/x/xai.png">
+                <figcaption>SapienceCoin (XAI)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xbc" title="BitcoinPlus (XBC)" height="150px" width="150" src="http://crypto.photos/icons/x/xbc.png">
+                <figcaption>BitcoinPlus (XBC)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xbot" title="SocialXbotCoin (XBOT)" height="150px" width="150" src="http://crypto.photos/icons/x/xbot.png">
+                <figcaption>SocialXbotCoin (XBOT)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xbs" title="Bitstake (XBS)" height="150px" width="150" src="http://crypto.photos/icons/x/xbs.png">
+                <figcaption>Bitstake (XBS)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xbts" title="Beats (XBTS)" height="150px" width="150" src="http://crypto.photos/icons/x/xbts.png">
+                <figcaption>Beats (XBTS)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xce" title="Cerium (XCE)" height="150px" width="150" src="http://crypto.photos/icons/x/xce.png">
+                <figcaption>Cerium (XCE)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xci" title="Cannabis Industry Coin (XCI)" height="150px" width="150" src="http://crypto.photos/icons/x/xci.png">
+                <figcaption>Cannabis Industry Coin (XCI)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xcn" title="Cryptonite (XCN)" height="150px" width="150" src="http://crypto.photos/icons/x/xcn.png">
+                <figcaption>Cryptonite (XCN)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xcp" title="CounterParty (XCP)" height="150px" width="150" src="http://crypto.photos/icons/x/xcp.png">
+                <figcaption>CounterParty (XCP)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xcr" title="Crypti (XCR)" height="150px" width="150" src="http://crypto.photos/icons/x/xcr.png">
+                <figcaption>Crypti (XCR)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xcre" title="Creatio (XCRE)" height="150px" width="150" src="http://crypto.photos/icons/x/xcre.png">
+                <figcaption>Creatio (XCRE)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xct" title="C-Bits (XCT)" height="150px" width="150" src="http://crypto.photos/icons/x/xct.png">
+                <figcaption>C-Bits (XCT)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xdb" title="DragonSphere (XDB)" height="150px" width="150" src="http://crypto.photos/icons/x/xdb.png">
+                <figcaption>DragonSphere (XDB)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xdn" title="DigitalNote (XDN)" height="150px" width="150" src="http://crypto.photos/icons/x/xdn.png">
+                <figcaption>DigitalNote (XDN)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xdp" title="DogeParty (XDP)" height="150px" width="150" src="http://crypto.photos/icons/x/xdp.png">
+                <figcaption>DogeParty (XDP)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xdq" title="Dirac Coin (XDQ)" height="150px" width="150" src="http://crypto.photos/icons/x/xdq.png">
+                <figcaption>Dirac Coin (XDQ)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xem" title="NEM (XEM)" height="150px" width="150" src="http://crypto.photos/icons/x/xem.png">
+                <figcaption>NEM (XEM)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xfc" title="Forever Coin (XFC)" height="150px" width="150" src="http://crypto.photos/icons/x/xfc.png">
+                <figcaption>Forever Coin (XFC)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xgb" title="GoldenBird (XGB)" height="150px" width="150" src="http://crypto.photos/icons/x/xgb.png">
+                <figcaption>GoldenBird (XGB)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xgr" title="GoldReserve (XGR)" height="150px" width="150" src="http://crypto.photos/icons/x/xgr.png">
+                <figcaption>GoldReserve (XGR)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xhi" title="HiCoin (XHI)" height="150px" width="150" src="http://crypto.photos/icons/x/xhi.png">
+                <figcaption>HiCoin (XHI)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xid" title="International Diamond Coin (XID)" height="150px" width="150" src="http://crypto.photos/icons/x/xid.png">
+                <figcaption>International Diamond Coin (XID)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xjo" title="JouleCoin (XJO)" height="150px" width="150" src="http://crypto.photos/icons/x/xjo.png">
+                <figcaption>JouleCoin (XJO)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xlb" title="LibertyCoin (XLB)" height="150px" width="150" src="http://crypto.photos/icons/x/xlb.png">
+                <figcaption>LibertyCoin (XLB)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xlm" title="Stellar (XLM)" height="150px" width="150" src="http://crypto.photos/icons/x/xlm.png">
+                <figcaption>Stellar (XLM)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xlr" title="Solaris (XLR)" height="150px" width="150" src="http://crypto.photos/icons/x/xlr.png">
+                <figcaption>Solaris (XLR)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xmg" title="Coin Magi (XMG)" height="150px" width="150" src="http://crypto.photos/icons/x/xmg.png">
+                <figcaption>Coin Magi (XMG)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xmr" title="Monero (XMR)" height="150px" width="150" src="http://crypto.photos/icons/x/xmr.png">
+                <figcaption>Monero (XMR)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xms" title="Megastake (XMS)" height="150px" width="150" src="http://crypto.photos/icons/x/xms.png">
+                <figcaption>Megastake (XMS)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xmy" title="MyraidCoin (XMY)" height="150px" width="150" src="http://crypto.photos/icons/x/xmy.png">
+                <figcaption>MyraidCoin (XMY)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xna" title="DeOxyRibose (XNA)" height="150px" width="150" src="http://crypto.photos/icons/x/xna.png">
+                <figcaption>DeOxyRibose (XNA)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xng" title="Enigma (XNG)" height="150px" width="150" src="http://crypto.photos/icons/x/xng.png">
+                <figcaption>Enigma (XNG)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpb" title="Pebble Coin (XPB)" height="150px" width="150" src="http://crypto.photos/icons/x/xpb.png">
+                <figcaption>Pebble Coin (XPB)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpd" title="PetroDollar (XPD)" height="150px" width="150" src="http://crypto.photos/icons/x/xpd.png">
+                <figcaption>PetroDollar (XPD)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xph" title="PharmaCoin (XPH)" height="150px" width="150" src="http://crypto.photos/icons/x/xph.png">
+                <figcaption>PharmaCoin (XPH)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpm" title="PrimeCoin (XPM)" height="150px" width="150" src="http://crypto.photos/icons/x/xpm.png">
+                <figcaption>PrimeCoin (XPM)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpo" title="Opair (XPO)" height="150px" width="150" src="http://crypto.photos/icons/x/xpo.png">
+                <figcaption>Opair (XPO)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpoke" title="PokeChain (XPOKE)" height="150px" width="150" src="http://crypto.photos/icons/x/xpoke.png">
+                <figcaption>PokeChain (XPOKE)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpro" title="ProCoin (XPRO)" height="150px" width="150" src="http://crypto.photos/icons/x/xpro.png">
+                <figcaption>ProCoin (XPRO)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xps" title="PoisonIvyCoin (XPS)" height="150px" width="150" src="http://crypto.photos/icons/x/xps.png">
+                <figcaption>PoisonIvyCoin (XPS)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xpy" title="PayCoin (XPY)" height="150px" width="150" src="http://crypto.photos/icons/x/xpy.png">
+                <figcaption>PayCoin (XPY)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xqn" title="Quotient (XQN)" height="150px" width="150" src="http://crypto.photos/icons/x/xqn.png">
+                <figcaption>Quotient (XQN)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xra" title="Ratecoin (XRA)" height="150px" width="150" src="http://crypto.photos/icons/x/xra.png">
+                <figcaption>Ratecoin (XRA)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xre" title="RevolverCoin (XRE)" height="150px" width="150" src="http://crypto.photos/icons/x/xre.png">
+                <figcaption>RevolverCoin (XRE)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xrp" title="Ripple (XRP)" height="150px" width="150" src="http://crypto.photos/icons/x/xrp.png">
+                <figcaption>Ripple (XRP)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xrp" title="Ripple (XRP)" height="150px" width="150" src="http://crypto.photos/icons/x/xrp.png">
+                <figcaption>Ripple (XRP)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xseed" title="BitSeeds (XSEED)" height="150px" width="150" src="http://crypto.photos/icons/x/xseed.png">
+                <figcaption>BitSeeds (XSEED)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xsi" title="Stability Shares (XSI)" height="150px" width="150" src="http://crypto.photos/icons/x/xsi.png">
+                <figcaption>Stability Shares (XSI)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xsp" title="PoolStamp (XSP)" height="150px" width="150" src="http://crypto.photos/icons/x/xsp.png">
+                <figcaption>PoolStamp (XSP)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xspec" title="Spectre (XSPEC)" height="150px" width="150" src="http://crypto.photos/icons/x/xspec.png">
+                <figcaption>Spectre (XSPEC)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xst" title="StealthCoin (XST)" height="150px" width="150" src="http://crypto.photos/icons/x/xst.png">
+                <figcaption>StealthCoin (XST)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xt" title="ExtremeCoin (XT)" height="150px" width="150" src="http://crypto.photos/icons/x/xt.png">
+                <figcaption>ExtremeCoin (XT)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xvg" title="Verge (XVG)" height="150px" width="150" src="http://crypto.photos/icons/x/xvg.png">
+                <figcaption>Verge (XVG)</figcaption>
+            </figure>
+            <figure><img class="cryptoicon" id="xzc" title="ZCoin (XZC)" height="150px" width="150" src="http://crypto.photos/icons/x/xzc.png">
+                <figcaption>ZCoin (XZC)</figcaption>
+            </figure>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3>Example: Mobile, tablet, desktops</h3>
-                            <p>Build on the previous example by creating even more dynamic and powerful layouts with tablet
-                                <code>.col-sm-*</code> classes.</p>
-                            <div class="row show-grid">
-                                <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
-                                <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                                <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>-->
-                                <!-- Optional: clear the XS cols if their content doesn't match in height 
-                                <div class="clearfix visible-xs"></div>
-                                <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
+
+
+                </div>
+                <!-- /#page-wrapper -->
+
             </div>
-            <!-- /.row 
+            <!-- /#wrapper -->
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3 id="grid-responsive-resets">Responsive column resets</h3>
-                            <p>With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a
-                                <code>.clearfix</code> and our <a href="#responsive-utilities">responsive utility classes</a>.</p>
-                            <div class="row show-grid">
-                                <div class="col-xs-6 col-sm-3">
-                                    .col-xs-6 .col-sm-3
-                                    <br>Resize your viewport or check it out on your phone for an example.
-                                </div>
-                                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>-->
+            <!-- jQuery -->
+            <script src="../vendor/jquery/jquery.min.js"></script>
 
-                                <!-- Add the extra clearfix for only the required viewport 
-                                <div class="clearfix visible-xs"></div>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-                                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-                                <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
+            <!-- Metis Menu Plugin JavaScript -->
+            <script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3 id="grid-offsetting">Offsetting columns</h3>
-                            <p>Move columns to the right using
-                                <code>.col-md-offset-*</code> classes. These classes increase the left margin of a column by
-                                <code>*</code> columns. For example,
-                                <code>.col-md-offset-4</code> moves
-                                <code>.col-md-4</code> over four columns.</p>
-                            <div class="row show-grid">
-                                <div class="col-md-4">.col-md-4</div>
-                                <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                                <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
-                            </div>
-                            <div class="row show-grid">
-                                <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3 id="grid-nesting">Nesting columns</h3>
-                            <p>To nest your content with the default grid, add a new
-                                <code>.row</code> and set of
-                                <code>.col-md-*</code> columns within an existing
-                                <code>.col-md-*</code> column. Nested rows should include a set of columns that add up to 12.</p>
-                            <div class="row show-grid">
-                                <div class="col-md-9">
-                                    Level 1: .col-md-9
-                                    <div class="row show-grid">
-                                        <div class="col-md-6">
-                                            Level 2: .col-md-6
-                                        </div>
-                                        <div class="col-md-6">
-                                            Level 2: .col-md-6
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row 
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h3 id="grid-column-ordering">Column ordering</h3>
-                            <p>Easily change the order of our built-in grid columns with
-                                <code>.col-md-push-*</code> and
-                                <code>.col-md-pull-*</code> modifier classes.</p>
-                            <div class="row show-grid">
-                                <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
-                                <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /#page-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+            <!-- Custom Theme JavaScript -->
+            <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 
