@@ -29,14 +29,13 @@
                         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
                         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
                     <![endif]-->
-   <!-- <style>
+    <!-- <style>
            
         #main {
             overflow: auto;
             padding-bottom: 150px;
             /* this needs to be bigger than footer height*/
         }
-
         .footer {
             position: relative;
             margin-top: -150px;
@@ -101,11 +100,18 @@
                 </div>
             </div>
         </nav>
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"><i class="fa fa-home fa-fw"></i>CRYPTO PHOTOS DOCUMENTATION</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
 
-        <div id="wrapper">
-        <div class="col-lg-8">
-            
-            <!-- Hide Menu by mkdocs.org 
+                            <!-- Hide Menu by mkdocs.org 
             <div class="d-flex p-2">
                     <div class="container">
                             
@@ -123,69 +129,74 @@
                         <li class="main "><a href="#feedback">FEEDBACK</a></li>
                         <li class="main"><a href="#license">LICENSE</a></li></ul>
                 </div></div> -->
-
-                <h1 id="official-crypto-photos-documentation">OFFICIAL CRYPTO PHOTOS DOCUMENTATION</h1>
-                <p>The Crypto Photos project logo:</p>
-                <p><img alt="crypto photos logo" src="http://crypto.photos/logo.png" title="Crypto Photos"></p>
-                <p>The Crypto Photos project website: <a href="http://crypto.photos/">http://crypto.photos</a></p>
-                <p>The explosive emergence of decentralized and distributed technologies (otherwise known as "blockchain" technology)
-                    has given way to a flood of new talent entering the ecosystem. As a result, new industry-specific apps
-                    and programs are being released on a daily basis. One of the most common needs of the developers is to
-                    simply have access to an exhaustive library of cryptocurrency asset icons...</p>
-                <p>It is for this reason that the Crypto Photos project aspires to be the most complete collection of cryptocurrency
-                    asset icons on the internet! </p>
-                <h1 id="formatting-syntax">FORMATTING &amp; SYNTAX</h1>
-                <p>All source photos are formatted as <i>.PNG</i> and are sized at exactly <i>300x300 px</i></p>
-                <p>All photos displayed on the project website are rendered at <i>150x150 px</i></p>
-                <h3 id="search-by-asset-symbols-first-letter">Search by asset symbol's first letter</h3>
-                <p>To view all asset icons beginning with a specific letter of the alphabet, simply navigate to the index of
-                    that letter by using the URL format below: </p>
-                <pre><code class="hljs groovy"><span class="hljs-string">http:</span><span class="hljs-comment">//crypto.photos/x</span>
+                            <p>The Crypto Photos project logo:</p>
+                            <p><img alt="crypto photos logo" src="http://crypto.photos/logo.png" title="Crypto Photos"></p>
+                            <p>The Crypto Photos project website: <a href="http://crypto.photos/">http://crypto.photos</a></p>
+                            <p>The explosive emergence of decentralized and distributed technologies (otherwise known as "blockchain"
+                                technology) has given way to a flood of new talent entering the ecosystem. As a result, new
+                                industry-specific apps and programs are being released on a daily basis. One of the most
+                                common needs of the developers is to simply have access to an exhaustive library of cryptocurrency
+                                asset icons...</p>
+                            <p>It is for this reason that the Crypto Photos project aspires to be the most complete collection
+                                of cryptocurrency asset icons on the internet! </p>
+                            <h1 id="formatting-syntax">FORMATTING &amp; SYNTAX</h1>
+                            <p>All source photos are formatted as <i>.PNG</i> and are sized at exactly <i>300x300 px</i></p>
+                            <p>All photos displayed on the project website are rendered at <i>150x150 px</i></p>
+                            <h3 id="search-by-asset-symbols-first-letter">Search by asset symbol's first letter</h3>
+                            <p>To view all asset icons beginning with a specific letter of the alphabet, simply navigate to
+                                the index of that letter by using the URL format below: </p>
+                            <pre><code class="hljs groovy"><span class="hljs-string">http:</span><span class="hljs-comment">//crypto.photos/x</span>
                 </code></pre>
 
-                <p>where "x" is the letter of the alphabet that you wish to search.</p>
-                <h3 id="search-for-assets-with-non-alphabetic-first-characters">Search for assets with non-alphabetic first characters</h3>
-                <p>To vew all asset icons which begin with non-letter characters, navigate to the following URL: </p>
-                <pre><code class="hljs livecodeserver"><span class="hljs-keyword">http</span>://crypto.photos/<span class="hljs-built_in">num</span>
+                            <p>where "x" is the letter of the alphabet that you wish to search.</p>
+                            <h3 id="search-for-assets-with-non-alphabetic-first-characters">Search for assets with non-alphabetic first characters</h3>
+                            <p>To vew all asset icons which begin with non-letter characters, navigate to the following URL:
+                                </p>
+                            <pre><code class="hljs livecodeserver"><span class="hljs-keyword">http</span>://crypto.photos/<span class="hljs-built_in">num</span>
                 </code></pre>
 
-                <h3 id="direct-logo-icon-linking">Direct logo icon linking</h3>
-                <p>To link directly to a specific icon use the following format:</p>
-                <pre><code class="hljs groovy"><span class="hljs-string">http:</span><span class="hljs-comment">//crypto.icon/x/xyz.png</span>
+                            <h3 id="direct-logo-icon-linking">Direct logo icon linking</h3>
+                            <p>To link directly to a specific icon use the following format:</p>
+                            <pre><code class="hljs groovy"><span class="hljs-string">http:</span><span class="hljs-comment">//crypto.icon/x/xyz.png</span>
                 </code></pre>
 
-                <p>where "x" is the first letter of the asset symbol, and "xyz" is the <i>lowercase</i> asset symbol. Be sure
-                    to add the file type (.png) onto the end.</p>
-                <h1 id="feedback">FEEDBACK</h1>
-                <p>You can connect with the developers of this project by sending an email to the following address:</p>
-                <pre><code class="hljs stylus">info@crypto<span class="hljs-class">.photos</span>
+                            <p>where "x" is the first letter of the asset symbol, and "xyz" is the <i>lowercase</i> asset symbol.
+                                Be sure to add the file type (.png) onto the end.</p>
+                            <h1 id="feedback">FEEDBACK</h1>
+                            <p>You can connect with the developers of this project by sending an email to the following address:</p>
+                            <pre><code class="hljs stylus">info@crypto<span class="hljs-class">.photos</span>
                 </code></pre>
 
-                <h1 id="license">LICENSE</h1>
-                <p>Copyright 2017 <a href="https://resonova.com/">ResoNova</a></p>
-                <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-                    documentation files (the "Software"), to deal in the Software without restriction, including without
-                    limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-                    of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
-                    conditions:</p>
-                <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions
-                    of the Software.</p>
-                <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-                    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-                    SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-                    AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-                    THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-                <p></p>
-                <hr>
-                <i>think outside the box</i>
-                <p></p>
+                            <h1 id="license">LICENSE</h1>
+                            <p>Copyright 2017 <a href="https://resonova.com/">ResoNova</a></p>
+                            <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+                                and associated documentation files (the "Software"), to deal in the Software without restriction,
+                                including without limitation the rights to use, copy, modify, merge, publish, distribute,
+                                sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
+                                is furnished to do so, subject to the following conditions:
+                            </p>
+                            <p>The above copyright notice and this permission notice shall be included in all copies or substantial
+                                portions of the Software.</p>
+                            <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+                                BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                                NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+                                DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                                FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+                            <p></p>
+                            <hr>
+                            <i>think outside the box</i>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="footer">
+                    <hr>
+
+                    <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+                </footer>
             </div>
-
-        <footer class="footer">
-            <hr>
-
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
+        </div>
     </div>
 
 
