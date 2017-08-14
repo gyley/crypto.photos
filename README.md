@@ -7,7 +7,7 @@ All photos are formatted as <i>.PNG</i> and are sized at exactly <i>300x300 px</
 <br>
 
 ## FORMATTING
-<hr>
+
 
 #### SEARCH BY TITLE'S FIRST LETTER
 To view all asset icons beginning with a specific letter of the alphabet, simply navigate to the index of that letter by using the URL format below: 
@@ -33,7 +33,7 @@ http://crypto.icon/x/xyz.png
 where "x" is the first letter of the asset symbol, and "xyz" is the <i>lowercase</i> asset symbol. Be sure to add the file type (.png) onto the end.
 
 ## FEEDBACK AND CONTRIBUTIONS
-<hr>
+
 
 You can connect with the developers of this project by sending an email to the following address:
 
