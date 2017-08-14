@@ -30,3 +30,10 @@ To link directly to a specific icon use the following format:
 http://crypto.icon/x/xyz.png
 ```
 where "x" is the first letter of the asset symbol, and "xyz" is the <i>lowercase</i> asset symbol. Be sure to add the file type (.png) onto the end.
+
+## FEEDBACK AND CONTRIBUTIONS
+You can connect with the developers of this project by sending an email to the following address:
+
+```
+info@crypto.photos
+```
