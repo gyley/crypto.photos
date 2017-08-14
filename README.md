@@ -3,5 +3,5 @@
 <br>
 Visit the project website to preview the collection of icons: (http://crypto.photos)
 <br>
-All photos are formatted as _.PNG_ and are sized at exactly _300x300 px_
+All photos are formatted as <i>.PNG</i> and are sized at exactly <i>300x300 px</i>
 <br>
