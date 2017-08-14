@@ -1,4 +1,4 @@
 # crypto.photos
 <hr><br>
-<i>The most complete collection of cryptocurrency asset icons on the internet</i>
+<p><i>The most complete collection of cryptocurrency asset icons on the internet</i></p>
 Visit the project [website](http://crypto.photos)
