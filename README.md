@@ -5,7 +5,9 @@ Visit the project website to preview the collection of icons: (http://crypto.pho
 <br>
 All photos are formatted as <i>.PNG</i> and are sized at exactly <i>300x300 px</i>
 <br>
+
 ### FORMATTING
+
 #### SEARCH BY TITLE'S FIRST LETTER
 To view all asset icons beginning with a specific letter of the alphabet, simply navigate to the index of that letter by using the URL format below: 
 
