@@ -1,6 +1,5 @@
 # OFFICIAL CRYPTO PHOTOS README & DOCUMENTATION
 
-The Crypto Photos project logo:
 
 ![crypto photos logo][logo]
 
@@ -9,9 +8,9 @@ The Crypto Photos project logo:
 The Crypto Photos project website: [http://crypto.photos](http://crypto.photos)
 
 
-The explosive emergence of decentralized and distributed technologies (otherwise known as "blockchain" technology) has given way to a flood of new talent entering the ecosystem. As a result, new industry-specific apps and programs are being released on a daily basis. One of the most common needs of the developers is to simply have access to an exhaustive library of cryptocurrency asset icons...
+The explosive emergence of decentralized and distributed technologies (otherwise known as "blockchain" technology) has given way to a flood of new talent entering the ecosystem. As a result, new industry-specific apps and programs are being released on a daily basis. Our team noticed that one of tne of the most common needs these developers have is to simply have access to an exhaustive library of good quality, systematically labeled, and properly formatted cryptocurrency asset icons...
 
-It is for this reason that the Crypto Photos project aspires to be the most complete collection of cryptocurrency asset icons on the internet! 
+It is for this reason that the Crypto Photos project exists and aspires to be the most complete collection of high quality cryptocurrency asset icons on the internet!
 
 # FORMATTING & SYNTAX
 
